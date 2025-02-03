@@ -9,6 +9,10 @@
 
 }
 
+.skillCard:hover{
+    transform: scale(1.1);
+}
+
 div{
     display: block;
     unicode-bidi: isolate;
