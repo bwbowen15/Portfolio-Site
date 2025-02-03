@@ -1,11 +1,15 @@
-.logo img{
-    border: solid #1f2833 5px;
-    border-radius: 50%;
-    padding:10px
+.skillCard{
+    border: solid #1f2833;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #0000004d;
+    padding: 20px;
+    text-align: center;
     
+    
+
 }
 
-.logo img:hover{
-    transform: rotate(360deg);
-    border: solid #45a29e 5px;
+div{
+    display: block;
+    unicode-bidi: isolate;
 }
