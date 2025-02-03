@@ -1,0 +1,43 @@
+.header{
+    overflow: hidden;
+    background-color: #45a29e;
+    padding: 20px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.header a{
+    float: left;
+    color: #0b0c10;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.header a.logo{
+    font-size: 35px;
+    font-weight: bold;
+    border: solid black;
+    border-radius: 10%;
+}
+
+.header a:hover{
+    background-color: #66fcf1;
+    color: black;
+}
+.contactButton{
+    float: right;
+    margin-left: 25px;
+
+}
+.contactButton a{
+    border: solid black;
+    
+
+}
