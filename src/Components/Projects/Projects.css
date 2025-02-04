@@ -1,0 +1,52 @@
+.projectsGrid{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-top: 20px
+}
+.projectsContainer{
+    margin: auto;
+    max-width: 1000px;
+    padding: 40px;
+    text-align: center;
+
+}
+div{
+    display: block;
+}
+
+
+.projects{
+    margin-left: 10%;
+    margin-right: 10%;
+ 
+
+}
+.projectsBody{
+    padding-top: 2%
+    /* background-color: #1f2833;
+    color: white; */
+}
+.projectCard{
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #0000004d;
+    padding: 20px;
+    text-align: center;
+    border: solid #1f2833;
+}
+
+.projectCard:hover{
+    transform: scale(1.1);
+}
+
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+
+
+
+
+
