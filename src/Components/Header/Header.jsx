@@ -29,7 +29,7 @@ function Header() {
             <a className='logo' href='#pic'>BB</a>
             <a href='#about'>About</a>
             <a href='#skills'>Skills</a>
-            <a>Projects</a>
+            <a href='#projects'>Projects</a>
             <div className='contactButton'>
                 <a>Contact Me</a>
             </div>

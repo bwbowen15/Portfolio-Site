@@ -1,6 +1,8 @@
 import SkillCard from './SkillCard'
 import './Skills.css'
 
+
+//logos are from icons8.com
 //logos
 import html from './html.png'
 import css from './css.png'
