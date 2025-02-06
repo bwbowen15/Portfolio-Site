@@ -1,7 +1,7 @@
 import './projects.css';
 import ProjectCard from './ProjectCard'
 
-//images resize to 50x50
+//images resize to 50%x50%
 import portfolioSite from './portfolioSite.png'
 
 function Projects(){

@@ -25,7 +25,7 @@ function Header() {
 
 
     return(
-        <div className='header'>
+        <div className='header' id='header'>
             <a className='logo' href='#pic'>BB</a>
             <a href='#about'>About</a>
             <a href='#skills'>Skills</a>
