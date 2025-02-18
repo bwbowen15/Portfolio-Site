@@ -30,6 +30,7 @@
 .header a:hover{
     background-color: #66fcf1;
     color: black;
+    cursor: pointer;
 }
 .contactButton{
     float: right;

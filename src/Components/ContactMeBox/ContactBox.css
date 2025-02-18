@@ -1,0 +1,45 @@
+
+
+.content{
+    position: fixed;
+    width: 50%;
+    
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 999;
+    border: solid black;
+    
+}
+
+#contactForm{
+    padding: 10px;
+    
+
+}
+#contactForm label{
+    padding: 5px;
+}
+#contactForm input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+}
+#contactForm textarea{
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+}
+.content button{
+    border-radius: 4px;
+    background-color: #45a29e;
+    width: 15%;
+    margin: 5px;
+    
+}
+.content button :hover{
+    background-color: #66fcf1;
+    cursor: pointer;
+}

@@ -18,9 +18,7 @@ function Projects(){
                         <div className='projectCard'>
                             <ProjectCard link={'google.com'} source={portfolioSite} name={'Portfolio Site'} description={"Portfolio site to show off my work."}></ProjectCard>
                         </div>
-                        <div className='projectCard'>
-                            <ProjectCard link={"google.com"} source={portfolioSite} name={"test"} description={"test"}></ProjectCard>
-                        </div>
+                       
 
                         
                     </div>

@@ -1,25 +1,14 @@
 import './Header.css';
-// import react, {useState, useEffect} from 'react';
+import react, {useState, useEffect} from 'react';
+import ContactBox from '../ContactMeBox/ContactBox';
+
 
 function Header() {
-    // const [headerStyle, setHeaderSytle] = useState('transparent');
+    const[isContactOpen, setIsContactOpen] = useState(false);
 
-
-    // const changeHeaderStyle = () => {
-    //     if(window.scrollY >= 80){
-    //         setHeaderStyle('#45a29e');
-    //     }
-    //     else{
-    //         setHeaderStyle('transparent');
-    //     }
-    // };
-
-    // useEffect(() => {
-    //     window.addEventListener('scroll', changeHeaderStyle);
-    //     return () => {
-    //         window.removeEventListener('scroll', changeHeaderStyle);
-    //     }
-    // }, []);
+    const openContact = () => setIsContactOpen(true);
+    const closeContact = () => setIsContactOpen(false);
+    
 
 
 
@@ -31,8 +20,9 @@ function Header() {
             <a href='#skills'>Skills</a>
             <a href='#projects'>Projects</a>
             <div className='contactButton'>
-                <a>Contact Me</a>
+                <a onClick={openContact}>Contact Me</a>
             </div>
+            <ContactBox isOpen={isContactOpen} onClose={closeContact}></ContactBox>
         </div>
     )
 
