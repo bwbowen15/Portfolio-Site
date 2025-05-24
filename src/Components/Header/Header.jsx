@@ -6,7 +6,11 @@ import ContactBox from '../ContactMeBox/ContactBox';
 function Header() {
     const[isContactOpen, setIsContactOpen] = useState(false);
 
-    const openContact = () => setIsContactOpen(true);
+    const openContact = () => {
+        setIsContactOpen(true);
+        window.alert('The contact me box is currently still in development. Sorry for the inconvenience. Please feel free to message me on linkedin!')
+    }
+        
     const closeContact = () => setIsContactOpen(false);
     
 

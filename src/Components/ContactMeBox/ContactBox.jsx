@@ -5,6 +5,8 @@ function ContactBox({isOpen, onClose}){
         return null;
     }
 
+    
+
     return(
         
             <div className='content'>
@@ -19,7 +21,8 @@ function ContactBox({isOpen, onClose}){
                     <label for='message'>Message:</label>
                     <textarea type='text' id='message' name='message'></textarea>
                     <br></br>
-                    <button  type='submit' >Submit</button>
+                    
+                    
                 </form>
                 <button  onClick={onClose}>Close</button>
             </div>
