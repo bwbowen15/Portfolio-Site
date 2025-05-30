@@ -13,13 +13,13 @@ function Header() {
         
     const closeContact = () => setIsContactOpen(false);
     
-
+    
 
 
 
     return(
         <div className='header' id='header'>
-            <a className='logo' href='#pic'>BB</a>
+            <a className='logo' href='#'>BB</a>
             <a href='#about'>About</a>
             <a href='#skills'>Skills</a>
             <a href='#projects'>Projects</a>

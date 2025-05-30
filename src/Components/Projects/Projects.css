@@ -23,16 +23,16 @@ div{
 
 }
 .projectsBody{
-    padding-top: 2%
-    /* background-color: #1f2833;
-    color: white; */
+    padding-top: 2%;
+    background-color: #1f2833;
+    color: #dcdcdc; 
 }
 .projectCard{
     border-radius: 10px;
     box-shadow: 0 4px 10px #0000004d;
     padding: 20px;
     text-align: center;
-    border: solid #1f2833;
+    border: solid #45a29e;
 }
 
 .projectCard:hover{
