@@ -2,8 +2,8 @@ import './ContactBox.css';
 
 
 
-//use sendgrid API to send emails. free trial is 60 days so implement closer to when im applying to jobs after internship ends.
-//https://sendgrid.com/en-us
+
+//resend api for this
 
 function ContactBox({isOpen, onClose}){
     if(isOpen == false){
