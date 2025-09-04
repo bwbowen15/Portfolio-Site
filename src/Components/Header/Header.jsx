@@ -24,7 +24,8 @@ function Header() {
             <a href='#skills'>Skills</a>
             <a href='#projects'>Projects</a>
             <div className='contactButton'>
-                <a onClick={openContact}>Contact Me</a>
+                {/*<a onClick={openContact}>Contact Me</a>*/}
+                <a href='https://www.linkedin.com/in/brian-bowen-psu/' target='_blank'>Contact Me</a>
             </div>
             <ContactBox isOpen={isContactOpen} onClose={closeContact}></ContactBox>
         </div>
