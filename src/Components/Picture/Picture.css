@@ -1,14 +1,31 @@
-.myPicture{
-    text-align: center;
-    margin: 50px
+.myPicture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 100%;
 }
 
-.myPicture img{
+.myPicture img {
     border-radius: 50%;
     border: solid #1f2833 8px;
+    width: 320px;
+    max-width: 90vw;
+    height: auto;
+    box-sizing: border-box;
+    transition: border 0.2s;
 }
 
-.myPicture img:hover{
+.myPicture img:hover {
     border: solid #45a29e 8px;
+}
 
+@media (max-width: 600px) {
+    .myPicture {
+        margin: 24px auto;
+    }
+        .myPicture img {
+            width: 180px;
+            max-width: 95vw;
+        }
 }
