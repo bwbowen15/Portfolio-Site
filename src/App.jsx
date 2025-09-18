@@ -11,6 +11,7 @@ import Intro from './Components/Intro/Intro'
 import About from './Components/About/About'
 import Skills from './Components/Skills/Skills'
 import Projects from './Components/Projects/Projects'
+import Footer from './Components/Footer/Footer'
 
 
 
@@ -28,6 +29,7 @@ function App() {
     <About></About>
     <Skills></Skills>
     <Projects></Projects>
+    <Footer></Footer>
     </>
   )
 }

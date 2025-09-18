@@ -1,0 +1,7 @@
+.foot {
+  text-align: center;       /* centers text horizontally */
+  padding: 1rem 0;          /* adds vertical spacing */
+  background-color: #45a29e; /* optional: subtle background */
+  font-size: 0.9rem;        /* slightly smaller text */
+  color: white;              /* optional: softer text color */
+}
