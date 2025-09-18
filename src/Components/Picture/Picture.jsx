@@ -1,5 +1,5 @@
 import './Picture.css'
-import pic from './tempIMG.jpg'
+import pic from './me.jpg'
 
 function Picture() {
 

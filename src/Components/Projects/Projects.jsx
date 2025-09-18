@@ -16,11 +16,14 @@ function Projects(){
                 <div className='projectsContainer'>
                     <div className='projectsGrid'>
                         <div className='projectCard'>
-                            <ProjectCard link={'google.com'} source={portfolioSite} name={'Portfolio Site'} description={"Portfolio site to show off my work."}></ProjectCard>
+                            <ProjectCard link={'google.com'} source={''} name={'Portfolio Site'} description={"Portfolio site to show off my work."} techs={"React, JavaScript, HTML, CSS"}></ProjectCard>
                         </div>
-                       
-
-                        
+                        <div className='projectCard'>
+                            <ProjectCard link={'https://github.com/bwbowen15/TastyAi'} source={''} name={'TastyAi'} description={"AI project that generates recipes based on your goals."} techs={"React, Spring(Java), JavaScript, HTML, CSS"}></ProjectCard>
+                        </div>
+                        <div className='projectCard'>
+                            <ProjectCard link={'https://github.com/bwbowen15/Narvis'} source={''} name={'Narvis: Personal AI Assistant'} description={"Narvis is an AI assistant that talks, listens, reasons, and helps manage tasks."} techs={"Python"}></ProjectCard>
+                        </div>
                     </div>
 
                 </div>

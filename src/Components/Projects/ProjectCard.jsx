@@ -6,20 +6,21 @@ function ProjectCard(props){
     
     return(
     
-        
+        <a href={props.link} target='_blank'>
             <div>
                 <img src={props.source}></img>            
                 <h3>{props.name}</h3>
                 <p>{props.description}</p>
-
-                <div className='techs'>
                 
+                <h4>Technologies:</h4>
+                <div className='techs'>
+                <p>{props.techs}</p>
             
 
                 </div>
             </div>
         
-    
+    </a>
     )
 }
 

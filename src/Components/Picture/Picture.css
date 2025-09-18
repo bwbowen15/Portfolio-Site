@@ -9,11 +9,14 @@
 .myPicture img {
     border-radius: 50%;
     border: solid #1f2833 8px;
-    width: 320px;
-    max-width: 90vw;
-    height: auto;
+    width: clamp(140px, 40vw, 320px);
+    height: clamp(140px, 40vw, 320px);
+    object-fit: cover;
     box-sizing: border-box;
     transition: border 0.2s;
+    aspect-ratio: 1 / 1;
+    max-width: 95vw;
+    max-height: 95vw;
 }
 
 .myPicture img:hover {
@@ -24,8 +27,8 @@
     .myPicture {
         margin: 24px auto;
     }
-        .myPicture img {
-            width: 180px;
-            max-width: 95vw;
-        }
+    .myPicture img {
+        width: clamp(100px, 60vw, 180px);
+        height: clamp(100px, 60vw, 180px);
+    }
 }
